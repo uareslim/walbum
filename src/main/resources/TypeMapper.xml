@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TypeMappers>
+    <Types provider="Oracle">
+        <Type sqlType="java.sql.Types.DECIMAL" colType="NUMBER" length="1">java.lang.Boolean</Type>
+        <Type sqlType="java.sql.Types.DECIMAL" colType="NUMBER" length="3">java.lang.Byte</Type>
+        <Type sqlType="java.sql.Types.DECIMAL" colType="NUMBER" length="5">java.lang.Short</Type>
+        <Type sqlType="java.sql.Types.DECIMAL" colType="NUMBER" length="10">java.lang.Integer</Type>
+        <Type sqlType="java.sql.Types.DECIMAL" colType="NUMBER" length="19">java.lang.Long</Type>
+        <Type sqlType="java.sql.Types.FLOAT" colType="FLOAT" length="126">java.lang.Float</Type>
+        <Type sqlType="java.sql.Types.FLOAT" colType="FLOAT" length="126">java.lang.Double</Type>
+        <Type sqlType="java.sql.Types.VARCHAR" colType="VARCHAR2" length="1">java.lang.Character</Type>
+        <Type sqlType="java.sql.Types.VARCHAR" colType="VARCHAR2" length="255">java.lang.String</Type>
+        <Type sqlType="java.sql.Types.TIMESTAMP" colType="DATE" length="7">java.util.Date</Type>
+        <Type sqlType="java.sql.Types.TIMESTAMP" colType="DATE" length="7">java.sql.Date</Type>
+        <Type sqlType="java.sql.Types.TIMESTAMP" colType="DATE" length="7">java.sql.Timestamp</Type>
+    </Types>
+    <Types provider="MySQL">
+        <Type sqlType="java.sql.Types.DECIMAL" colType="NUMBER" length="1">java.lang.Boolean</Type>
+        <Type sqlType="java.sql.Types.DECIMAL" colType="NUMBER" length="3">java.lang.Byte</Type>
+        <Type sqlType="java.sql.Types.DECIMAL" colType="NUMBER" length="5">java.lang.Short</Type>
+        <Type sqlType="java.sql.Types.DECIMAL" colType="NUMBER" length="10">java.lang.Integer</Type>
+        <Type sqlType="java.sql.Types.DECIMAL" colType="NUMBER" length="19">java.lang.Long</Type>
+        <Type sqlType="java.sql.Types.FLOAT" colType="FLOAT" length="126">java.lang.Float</Type>
+        <Type sqlType="java.sql.Types.FLOAT" colType="FLOAT" length="126">java.lang.Double</Type>
+        <Type sqlType="java.sql.Types.VARCHAR" colType="VARCHAR2" length="1">java.lang.Character</Type>
+        <Type sqlType="java.sql.Types.VARCHAR" colType="VARCHAR2" length="255">java.lang.String</Type>
+        <Type sqlType="java.sql.Types.TIMESTAMP" colType="DATE" length="7">java.util.Date</Type>
+        <Type sqlType="java.sql.Types.TIMESTAMP" colType="DATE" length="7">java.sql.Date</Type>
+        <Type sqlType="java.sql.Types.TIMESTAMP" colType="DATE" length="7">java.sql.Timestamp</Type>
+    </Types>
+</TypeMappers>
